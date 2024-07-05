@@ -1,0 +1,25 @@
+{
+    "name": "kindigi/valet-plus",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bishwajit Adhikary",
+            "email": "bishwajitcadhikary@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/valet": "^4.7",
+        "laravel/prompts": "^0.1.24"
+    },
+    "autoload": {
+        "files": [
+            "cli/includes/facades.php"
+        ],
+        "psr-4": {
+            "KinDigi\\ValetPlus\\": "cli/ValetPlus/"
+        }
+    },
+    "bin": [
+        "vp"
+    ]
+}

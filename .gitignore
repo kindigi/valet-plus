@@ -1,0 +1,11 @@
+vendor/
+bin/
+tests/config
+composer.lock
+error.log
+*.sublime-project
+*.sublime-workspace
+.idea
+.php-cs-fixer.cache
+.phpunit.result.cache
+.vscode/
